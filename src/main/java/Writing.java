@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.LocalDate;
 
- class Sign {
+ class Writing {
     void write(String file, String name, LocalDate date) throws IOException {
         Workbook book = new HSSFWorkbook();
         Sheet sheet = book.createSheet("bdays");
